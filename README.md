@@ -15,6 +15,13 @@ Velum 是一个面向 macOS 的本地 AI 工作台：原生 SwiftUI 桌面、内
 - **ServerBox**：SSH 密钥或密码登录；密码只存 Keychain，通过 askpass 读取；强制主机公钥确认；连接测试有超时和取消。
 - **VM / 浏览器**：smolvm Debian 环境、`/workspace` 双向挂载、内置 WKWebView 浏览器及受控页面操作。
 
+## 下载完整发布包
+
+- [Velum 1.0.0 · macOS arm64](https://github.com/DannielYu219/Project-Auto/releases/tag/v1.0.0)
+- 包含完整 `Velum.app`（Python 基座 + VM 资源）、MLX/Splash/自定义引擎包。
+- ZIP SHA-256：`1413526f632bf38bb7af8c906048a1e86da6f736ccfbe3ec3cc0c5c93522e697`
+- 模型权重不包含在发布包内。
+
 ## 仓库结构
 
 ```
