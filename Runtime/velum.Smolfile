@@ -1,0 +1,28 @@
+# Velum Linux 工作环境（smolvm）
+#
+# 用法（在 Runtime/ 目录下执行）：
+#   smolvm machine create --name velum --smolfile velum.Smolfile
+#   smolvm machine start --name velum
+#   smolvm machine exec --name velum -- bash -lc 'jq --version'
+#
+# 首次 start 会执行 init（以 root 身份，只执行一次）：
+#   1. 先用清华 HTTP 源装 ca-certificates（Debian slim 没有证书，HTTPS 装不了）
+#   2. 再切到阿里云 HTTPS 源，装常用工具
+# 不走代理；镜像拉取（创建机器时）仍可能需要代理。
+
+image = "debian:stable-slim"
+net = true
+cpus = 4
+memory = 4096
+storage = 20
+overlay = 10
+
+volumes = ["./workspace:/workspace"]
+
+init = [
+    "sed -i 's|deb.debian.org/debian-security|mirrors.tuna.tsinghua.edu.cn/debian-security|g; s|deb.debian.org/debian|mirrors.tuna.tsinghua.edu.cn/debian|g' /etc/apt/sources.list.d/debian.sources",
+    "apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ca-certificates curl",
+    "sed -i 's|http://mirrors.tuna.tsinghua.edu.cn/debian-security|https://mirrors.aliyun.com/debian-security|g; s|http://mirrors.tuna.tsinghua.edu.cn/debian|https://mirrors.aliyun.com/debian|g' /etc/apt/sources.list.d/debian.sources",
+    "apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get install -y -qq git jq ripgrep less nano procps iproute2 dnsutils unzip zip xz-utils tini",
+    "mkdir -p /workspace"
+]

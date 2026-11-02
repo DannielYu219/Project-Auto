@@ -1,0 +1,18 @@
+{
+  "upstream": "https://github.com/incoai/splash/releases/tag/1.5.0",
+  "asset": "splash-1.5.0-arm64-macos26.tar.gz",
+  "upstream_sha256": "1ddc28bf7bfda8833859a913d7072e2aac9072addb9eb5664f3bf1a83a8d6ee2",
+  "official_modules": [
+    "engine",
+    "install",
+    "server",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES",
+    "release.json"
+  ],
+  "python": "Shared CPython3.12 (not included)",
+  "dependencies": "Official install/requirements.txt exact pins, cp312/abi3 wheels; pip omitted build-time only",
+  "mlx_dependency": false,
+  "modifications": "Official files unmodified; service/upstream.py isolated bootstrap adapts paths, pins draft, redirects thinking key and isolates PDF workers",
+  "release_trust": "development-adhoc, not Developer ID signed or notarized"
+}

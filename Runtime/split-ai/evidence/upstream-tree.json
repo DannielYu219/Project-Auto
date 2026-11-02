@@ -1,0 +1,1859 @@
+{
+  "sha": "fa506e0858ac9f2cc5b289c137b888a2aa24d1ee",
+  "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/fa506e0858ac9f2cc5b289c137b888a2aa24d1ee",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4df69f1e12f027a7b30a8ea9c70fef4553a288e",
+      "size": 67,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e4df69f1e12f027a7b30a8ea9c70fef4553a288e"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aca6eef4d91bdcf187d7beabf47d3b0b697b8303",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/aca6eef4d91bdcf187d7beabf47d3b0b697b8303"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5657a8583e015ec25e53ef00cc7cb98e3686e22d",
+      "size": 19,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5657a8583e015ec25e53ef00cc7cb98e3686e22d"
+    },
+    {
+      "path": ".github/automations-dispatch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a93df6927c53698b95ef592609ab7dbf01a37a68",
+      "size": 1011,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a93df6927c53698b95ef592609ab7dbf01a37a68"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25dee2ba397497cfc27acbef55b326a4fabe2a75",
+      "size": 418,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/25dee2ba397497cfc27acbef55b326a4fabe2a75"
+    },
+    {
+      "path": ".github/secure-token-service.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033680a0cd920302332ff3105b59f27f1be31341",
+      "size": 486,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/033680a0cd920302332ff3105b59f27f1be31341"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4acd2d50cc60b043aaa81f7be0dfe42d43b7e72a",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/4acd2d50cc60b043aaa81f7be0dfe42d43b7e72a"
+    },
+    {
+      "path": ".github/workflows/ai-policy.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6da1067f19c29115e9e542ca1cb872fd826eb04",
+      "size": 1692,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/f6da1067f19c29115e9e542ca1cb872fd826eb04"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec970009f6e00848165fda698d7675ea1077796",
+      "size": 997,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/dec970009f6e00848165fda698d7675ea1077796"
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "324f8407f53f61c6bca61d59cd35c2d13859a686",
+      "size": 13392,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/324f8407f53f61c6bca61d59cd35c2d13859a686"
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81004fcacb4551eb0c4985a1340717db8aa5d86a",
+      "size": 6817,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/81004fcacb4551eb0c4985a1340717db8aa5d86a"
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5965203263911567cc4aea16d7c9505771798e1f",
+      "size": 3643,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5965203263911567cc4aea16d7c9505771798e1f"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8776d1a2ec9e8f29ac295357227dd214294015a2",
+      "size": 8030,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/8776d1a2ec9e8f29ac295357227dd214294015a2"
+    },
+    {
+      "path": ".github/workflows/stdlib.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0c98646924637dc4efb6dbf9e09ca68ac7ba24b",
+      "size": 8766,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a0c98646924637dc4efb6dbf9e09ca68ac7ba24b"
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5e891da28c3da0e1d7b2c49efcb8f073fcf0265",
+      "size": 6993,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e5e891da28c3da0e1d7b2c49efcb8f073fcf0265"
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "495e684e4aa82f4c40637fe8926e0e0bcae0456c",
+      "size": 506,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/495e684e4aa82f4c40637fe8926e0e0bcae0456c"
+    },
+    {
+      "path": ".github/zizmor.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7920e8cf1790590c410ec59e774d8b993fb3fa0",
+      "size": 74,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e7920e8cf1790590c410ec59e774d8b993fb3fa0"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f87e54e225bc745c67af055f08c1b48326e23f7",
+      "size": 66,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3f87e54e225bc745c67af055f08c1b48326e23f7"
+    },
+    {
+      "path": ".hgignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597ec2280234284fcaf34f6093b0c40a143dbcf4",
+      "size": 19,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/597ec2280234284fcaf34f6093b0c40a143dbcf4"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24ee5b1be9961e38a503c8e764b7385dbb6ba124",
+      "size": 5,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/24ee5b1be9961e38a503c8e764b7385dbb6ba124"
+    },
+    {
+      "path": "BENCHMARKS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74da21e0367ca6f389bc7e57198edb90f7cef9b9",
+      "size": 3259,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/74da21e0367ca6f389bc7e57198edb90f7cef9b9"
+    },
+    {
+      "path": "CONTRIBUTING.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a9716cb3798a0fe8c152a159eb46bea65e8a511",
+      "size": 3033,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4a9716cb3798a0fe8c152a159eb46bea65e8a511"
+    },
+    {
+      "path": "Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373dff16083db99b62f94850f7706dfc756a2224",
+      "size": 98336,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/373dff16083db99b62f94850f7706dfc756a2224"
+    },
+    {
+      "path": "Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863f8af7de659e55218b7db0ef1479f9cdf633ef",
+      "size": 932,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/863f8af7de659e55218b7db0ef1479f9cdf633ef"
+    },
+    {
+      "path": "Justfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f67c13a9e55c5bf1e3385a90cc1fd195230d186d",
+      "size": 4880,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/f67c13a9e55c5bf1e3385a90cc1fd195230d186d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+      "size": 16725,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "LICENSE.bdb.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0601b45e01c6bda505d9d6697c77a28edf378722",
+      "size": 7293,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/0601b45e01c6bda505d9d6697c77a28edf378722"
+    },
+    {
+      "path": "LICENSE.bzip2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c4cdbc3f5e894f765d903f3c5939d7aa009615",
+      "size": 1743,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a5c4cdbc3f5e894f765d903f3c5939d7aa009615"
+    },
+    {
+      "path": "LICENSE.cpython.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1007a80520a7ff53a8dd5d8847bd4c0a34d46442",
+      "size": 36164,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1007a80520a7ff53a8dd5d8847bd4c0a34d46442"
+    },
+    {
+      "path": "LICENSE.expat.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce9e5939291e45f9633f540efc6ae58a26c041ef",
+      "size": 1144,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/ce9e5939291e45f9633f540efc6ae58a26c041ef"
+    },
+    {
+      "path": "LICENSE.libX11.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b065516e4437c493f9cbf32cc7d15db60f68bc74",
+      "size": 47018,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/b065516e4437c493f9cbf32cc7d15db60f68bc74"
+    },
+    {
+      "path": "LICENSE.libXau.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64492ad8091f917787b14f12ba236e56de7addd2",
+      "size": 1148,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/64492ad8091f917787b14f12ba236e56de7addd2"
+    },
+    {
+      "path": "LICENSE.libedit.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c8707dc590da3ef3b8a487475e4fe0b191f976",
+      "size": 1614,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/52c8707dc590da3ef3b8a487475e4fe0b191f976"
+    },
+    {
+      "path": "LICENSE.libffi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb2f7a07d7c5093f258ce7f6e8711fa63e68747",
+      "size": 1132,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/acb2f7a07d7c5093f258ce7f6e8711fa63e68747"
+    },
+    {
+      "path": "LICENSE.liblzma.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d7885199716b722b52832f73fa75285459b08ae",
+      "size": 660,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2d7885199716b722b52832f73fa75285459b08ae"
+    },
+    {
+      "path": "LICENSE.libuuid.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec87a77f17f3f9415bd05ae1fb21c6009765f8b1",
+      "size": 1432,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/ec87a77f17f3f9415bd05ae1fb21c6009765f8b1"
+    },
+    {
+      "path": "LICENSE.libxcb.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54bfbe5b02074d0c276959c9140072ccba0dc670",
+      "size": 1337,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/54bfbe5b02074d0c276959c9140072ccba0dc670"
+    },
+    {
+      "path": "LICENSE.mpdecimal.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7688a928cd5292e5c2a729431fab7b30fd44a05",
+      "size": 1284,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c7688a928cd5292e5c2a729431fab7b30fd44a05"
+    },
+    {
+      "path": "LICENSE.ncurses.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a229753681327c4089d8fdaf9293658c7befe4a",
+      "size": 1447,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3a229753681327c4089d8fdaf9293658c7befe4a"
+    },
+    {
+      "path": "LICENSE.openssl-3.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49cc83d2ee29d13453188217f0e4edd70c7f842f",
+      "size": 10175,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/49cc83d2ee29d13453188217f0e4edd70c7f842f"
+    },
+    {
+      "path": "LICENSE.sqlite.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68b36ebd1990e92998ca64a30af0a726357ebdea",
+      "size": 1481,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/68b36ebd1990e92998ca64a30af0a726357ebdea"
+    },
+    {
+      "path": "LICENSE.tcl.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8049cd9e7ca055f7e584a76f88861a294b30c9c",
+      "size": 2255,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/d8049cd9e7ca055f7e584a76f88861a294b30c9c"
+    },
+    {
+      "path": "LICENSE.tix.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5323a3fc39f6c196065fc49803b6777410b02c92",
+      "size": 2826,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5323a3fc39f6c196065fc49803b6777410b02c92"
+    },
+    {
+      "path": "LICENSE.zlib-ng.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e866d7ac18620a2229727e3a0512ab688176cbd8",
+      "size": 867,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e866d7ac18620a2229727e3a0512ab688176cbd8"
+    },
+    {
+      "path": "LICENSE.zlib.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb28a147858fcb57ed306ed6fbd9c03f22f9452",
+      "size": 995,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5eb28a147858fcb57ed306ed6fbd9c03f22f9452"
+    },
+    {
+      "path": "LICENSE.zstd.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75800288cc243f164b9d130f125e2ffae28f8e39",
+      "size": 1549,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/75800288cc243f164b9d130f125e2ffae28f8e39"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "874f73c5ac25bcbc5897c60cbcf7ad2dfd7bc59e",
+      "size": 2334,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/874f73c5ac25bcbc5897c60cbcf7ad2dfd7bc59e"
+    },
+    {
+      "path": "build.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "12c3fdb1bdfc374990312e3133fb0b1d97aa1ae4",
+      "size": 1208,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/12c3fdb1bdfc374990312e3133fb0b1d97aa1ae4"
+    },
+    {
+      "path": "check.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ba729f49961f28fe0b2d0d28828ea0670ca7e75e",
+      "size": 1419,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/ba729f49961f28fe0b2d0d28828ea0670ca7e75e"
+    },
+    {
+      "path": "ci-defaults.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56f6126759a18639c78f7da9daae23bd63f7184c",
+      "size": 541,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/56f6126759a18639c78f7da9daae23bd63f7184c"
+    },
+    {
+      "path": "ci-matrix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5674a7796ba52fb38a1355cc41542612d1c93a44",
+      "size": 23981,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5674a7796ba52fb38a1355cc41542612d1c93a44"
+    },
+    {
+      "path": "ci-runners.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ea3e7bb89b0cb8fc46a9e9d5dbd437bfa2b0da1",
+      "size": 919,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2ea3e7bb89b0cb8fc46a9e9d5dbd437bfa2b0da1"
+    },
+    {
+      "path": "ci-targets.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83f430416a9946808cf7d0c1e6055e946c4af472",
+      "size": 8792,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/83f430416a9946808cf7d0c1e6055e946c4af472"
+    },
+    {
+      "path": "cpython-unix",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80fa451571a9882762eb0225738540fbab7f2c5d",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/80fa451571a9882762eb0225738540fbab7f2c5d"
+    },
+    {
+      "path": "cpython-unix/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a21ebf25e11dede2431431242ed28ac0592bc6e",
+      "size": 12743,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3a21ebf25e11dede2431431242ed28ac0592bc6e"
+    },
+    {
+      "path": "cpython-unix/base.debian13.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "773b5fe66d9fe85b891e278a52dac91567265d6a",
+      "size": 2222,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/773b5fe66d9fe85b891e278a52dac91567265d6a"
+    },
+    {
+      "path": "cpython-unix/build-autoconf.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "483bdd12acc58c9d1761f46cf2a2befebdd5447c",
+      "size": 687,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/483bdd12acc58c9d1761f46cf2a2befebdd5447c"
+    },
+    {
+      "path": "cpython-unix/build-bdb.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "48531713bf5483490986ea9e78eee37caebf4be2",
+      "size": 1277,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/48531713bf5483490986ea9e78eee37caebf4be2"
+    },
+    {
+      "path": "cpython-unix/build-bzip2.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "82c25e213df7c64ed851b1b8117061014281f5a4",
+      "size": 945,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/82c25e213df7c64ed851b1b8117061014281f5a4"
+    },
+    {
+      "path": "cpython-unix/build-cpython-host.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e81c9242d4b47319a6387d07ce94f1fe241bb465",
+      "size": 3438,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e81c9242d4b47319a6387d07ce94f1fe241bb465"
+    },
+    {
+      "path": "cpython-unix/build-cpython.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8fcb29f9344282f7f8bc418be666f197fb9e4525",
+      "size": 65468,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/8fcb29f9344282f7f8bc418be666f197fb9e4525"
+    },
+    {
+      "path": "cpython-unix/build-expat.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "75ded6f22d464337f7436178431eada6008b3f9d",
+      "size": 1390,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/75ded6f22d464337f7436178431eada6008b3f9d"
+    },
+    {
+      "path": "cpython-unix/build-libX11.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1072fa0edac8d4634cce1bc4b371459743999a91",
+      "size": 4040,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1072fa0edac8d4634cce1bc4b371459743999a91"
+    },
+    {
+      "path": "cpython-unix/build-libXau.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7bd10a009fae1b2b38f4d07a2ad54513c16648ad",
+      "size": 1343,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7bd10a009fae1b2b38f4d07a2ad54513c16648ad"
+    },
+    {
+      "path": "cpython-unix/build-libedit.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a1e8e2d142b180f399eee7360da37d8f355bde64",
+      "size": 4960,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a1e8e2d142b180f399eee7360da37d8f355bde64"
+    },
+    {
+      "path": "cpython-unix/build-libffi.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3d0b60ae3025032415bacf7256c972dc857e1459",
+      "size": 1412,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3d0b60ae3025032415bacf7256c972dc857e1459"
+    },
+    {
+      "path": "cpython-unix/build-libpthread-stubs.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6693a00ec900c96d9c768d96bd5d71d6d81beb68",
+      "size": 735,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/6693a00ec900c96d9c768d96bd5d71d6d81beb68"
+    },
+    {
+      "path": "cpython-unix/build-libxcb.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d99a235b4bcd4135e1f3a197a47410cba0eec29b",
+      "size": 1658,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/d99a235b4bcd4135e1f3a197a47410cba0eec29b"
+    },
+    {
+      "path": "cpython-unix/build-linux-uapi.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1d04f0544ef235ba10f8fbc9f2f19bfa46a06e64",
+      "size": 697,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1d04f0544ef235ba10f8fbc9f2f19bfa46a06e64"
+    },
+    {
+      "path": "cpython-unix/build-m4.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "418acc57f5c9912fd7802158d1d286fa131918a6",
+      "size": 663,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/418acc57f5c9912fd7802158d1d286fa131918a6"
+    },
+    {
+      "path": "cpython-unix/build-main.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ad3dd46aef56e2599ab37017c4ebe529000edcc7",
+      "size": 7843,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/ad3dd46aef56e2599ab37017c4ebe529000edcc7"
+    },
+    {
+      "path": "cpython-unix/build-mpdecimal.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c474a006499a5c62af2bb64f867a0fd12b08275b",
+      "size": 738,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c474a006499a5c62af2bb64f867a0fd12b08275b"
+    },
+    {
+      "path": "cpython-unix/build-musl.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "34b2e76f9f83dd8f2ee20801d951c7f0eaf93741",
+      "size": 3551,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/34b2e76f9f83dd8f2ee20801d951c7f0eaf93741"
+    },
+    {
+      "path": "cpython-unix/build-ncurses.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7f7351745fedeeed4fe8a4278d5168bf3ff8d87c",
+      "size": 4583,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7f7351745fedeeed4fe8a4278d5168bf3ff8d87c"
+    },
+    {
+      "path": "cpython-unix/build-openssl-3.5.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39f8108cbdcc58f354c7105d204d6edc386da169",
+      "size": 2595,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/39f8108cbdcc58f354c7105d204d6edc386da169"
+    },
+    {
+      "path": "cpython-unix/build-patchelf.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e4c6a05f9b23e77b0aa7fdc14c580da01417f156",
+      "size": 2426,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e4c6a05f9b23e77b0aa7fdc14c580da01417f156"
+    },
+    {
+      "path": "cpython-unix/build-pkgconf.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c15ae88c733e36b933766ef3929a8bc14dd5900f",
+      "size": 928,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c15ae88c733e36b933766ef3929a8bc14dd5900f"
+    },
+    {
+      "path": "cpython-unix/build-sqlite.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "679817d979456acb9ffdb835e518754555c7233b",
+      "size": 1420,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/679817d979456acb9ffdb835e518754555c7233b"
+    },
+    {
+      "path": "cpython-unix/build-tcl.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3ed1c02f0605b29b683df482e14661bc6330be33",
+      "size": 4406,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3ed1c02f0605b29b683df482e14661bc6330be33"
+    },
+    {
+      "path": "cpython-unix/build-tk.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5dae3292220f87781dff61d741a4f0febde63dea",
+      "size": 3936,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5dae3292220f87781dff61d741a4f0febde63dea"
+    },
+    {
+      "path": "cpython-unix/build-uuid.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b3f185fd6914f60a4f585f82afe971dc8f588b7e",
+      "size": 816,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/b3f185fd6914f60a4f585f82afe971dc8f588b7e"
+    },
+    {
+      "path": "cpython-unix/build-x11-util-macros.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "263cb29e8e2c341e546c8de9d9865fa32a28a349",
+      "size": 678,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/263cb29e8e2c341e546c8de9d9865fa32a28a349"
+    },
+    {
+      "path": "cpython-unix/build-xcb-proto.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ba9f801ff49d0c05e969c67136106b1e2aedebf4",
+      "size": 747,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/ba9f801ff49d0c05e969c67136106b1e2aedebf4"
+    },
+    {
+      "path": "cpython-unix/build-xorgproto.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5eae50f3f1695841d5ede66b4af6639c5b3b619d",
+      "size": 1026,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5eae50f3f1695841d5ede66b4af6639c5b3b619d"
+    },
+    {
+      "path": "cpython-unix/build-xtrans.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7de564ab55306fd26fc5ddcab3106d928c6c44df",
+      "size": 735,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7de564ab55306fd26fc5ddcab3106d928c6c44df"
+    },
+    {
+      "path": "cpython-unix/build-xz.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f61ecefd124949e81a59ca06d69edad559a1a90d",
+      "size": 1231,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/f61ecefd124949e81a59ca06d69edad559a1a90d"
+    },
+    {
+      "path": "cpython-unix/build-zlib.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "adfbfd277f630c10f513e5bc6a63317a15d64403",
+      "size": 761,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/adfbfd277f630c10f513e5bc6a63317a15d64403"
+    },
+    {
+      "path": "cpython-unix/build-zstd.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5a8e8137f6c02676036a035b9a70cd77c79cef6e",
+      "size": 4038,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5a8e8137f6c02676036a035b9a70cd77c79cef6e"
+    },
+    {
+      "path": "cpython-unix/build.cross-loongarch64.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e78250efec54fdad00b7181cff37cadc92e0367",
+      "size": 2033,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2e78250efec54fdad00b7181cff37cadc92e0367"
+    },
+    {
+      "path": "cpython-unix/build.cross-riscv64.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc0a59effc60fc268919b63ff86c008ff8f2c433",
+      "size": 1190,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/bc0a59effc60fc268919b63ff86c008ff8f2c433"
+    },
+    {
+      "path": "cpython-unix/build.cross.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f35f5158ef329981a21fc82322cedf7616b8dbe",
+      "size": 2135,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1f35f5158ef329981a21fc82322cedf7616b8dbe"
+    },
+    {
+      "path": "cpython-unix/build.debian13-x86_64.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ebbfb0261a29a6e648b071bf5dea9238105cf40",
+      "size": 4079,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4ebbfb0261a29a6e648b071bf5dea9238105cf40"
+    },
+    {
+      "path": "cpython-unix/build.debian13.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26710000529aaffe6dd41141a134f61097e4adfd",
+      "size": 4050,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/26710000529aaffe6dd41141a134f61097e4adfd"
+    },
+    {
+      "path": "cpython-unix/build.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "978c73677c8d7d22259e39c9b090ee4560e6956c",
+      "size": 47222,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/978c73677c8d7d22259e39c9b090ee4560e6956c"
+    },
+    {
+      "path": "cpython-unix/extension-modules.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33f673926163f650acb1bf5df7e5dc8357f3434b",
+      "size": 23965,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/33f673926163f650acb1bf5df7e5dc8357f3434b"
+    },
+    {
+      "path": "cpython-unix/gcc.debian13-x86_64.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db1536f4b2565f26c9c6d39bc9edf701ec854848",
+      "size": 40,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/db1536f4b2565f26c9c6d39bc9edf701ec854848"
+    },
+    {
+      "path": "cpython-unix/gcc.debian13.Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc19cc9f98881b7f0d78599b0d6b084eebcf32d",
+      "size": 247,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/8bc19cc9f98881b7f0d78599b0d6b084eebcf32d"
+    },
+    {
+      "path": "cpython-unix/patch-always-build-python-for-freeze.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d3cf39be795d0967991f887cfdcf578491fe7d",
+      "size": 1571,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/55d3cf39be795d0967991f887cfdcf578491fe7d"
+    },
+    {
+      "path": "cpython-unix/patch-apple-cross-3.12.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3729fe1c5d9fc2b73d0e9130d3f3ac120b696945",
+      "size": 2517,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3729fe1c5d9fc2b73d0e9130d3f3ac120b696945"
+    },
+    {
+      "path": "cpython-unix/patch-apple-cross-3.13.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0f05b5d380f8700fea08be7d089fd64fc21c60b",
+      "size": 2572,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/f0f05b5d380f8700fea08be7d089fd64fc21c60b"
+    },
+    {
+      "path": "cpython-unix/patch-apple-cross.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3729fe1c5d9fc2b73d0e9130d3f3ac120b696945",
+      "size": 2517,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3729fe1c5d9fc2b73d0e9130d3f3ac120b696945"
+    },
+    {
+      "path": "cpython-unix/patch-configure-add-loongarch-triplet.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30b9e5a020dbc353046db8442b07282f3e961895",
+      "size": 1618,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/30b9e5a020dbc353046db8442b07282f3e961895"
+    },
+    {
+      "path": "cpython-unix/patch-configure-disable-stdlib-mod.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637c9d23a417ac660d8e4893a474e8ea5e077411",
+      "size": 1416,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/637c9d23a417ac660d8e4893a474e8ea5e077411"
+    },
+    {
+      "path": "cpython-unix/patch-configure-remove-libtool-cruft.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b0d4c6b3aa22ed561d253d10d64fecc0a7ece0",
+      "size": 2147,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/05b0d4c6b3aa22ed561d253d10d64fecc0a7ece0"
+    },
+    {
+      "path": "cpython-unix/patch-cpython-configure-target-triple-musl-3.12.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "145f536a795e7347e819737ca0ac9c9f074821b9",
+      "size": 1208,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/145f536a795e7347e819737ca0ac9c9f074821b9"
+    },
+    {
+      "path": "cpython-unix/patch-cpython-redhat-cert-file.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38e1126e4a679db60d3716644813e8d7fa769f26",
+      "size": 1559,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/38e1126e4a679db60d3716644813e8d7fa769f26"
+    },
+    {
+      "path": "cpython-unix/patch-cross-readelf.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1f64b4bb794e88cac42914ad4e342c4c4bc2c97",
+      "size": 407,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/b1f64b4bb794e88cac42914ad4e342c4c4bc2c97"
+    },
+    {
+      "path": "cpython-unix/patch-ctypes-callproc.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7053330d49bfa0b03b320afe734c0f4ecbe24970",
+      "size": 1556,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7053330d49bfa0b03b320afe734c0f4ecbe24970"
+    },
+    {
+      "path": "cpython-unix/patch-ctypes-static-binary.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a44258b2708fcc6978f4961b024eb3fd3fd898ec",
+      "size": 413,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a44258b2708fcc6978f4961b024eb3fd3fd898ec"
+    },
+    {
+      "path": "cpython-unix/patch-dont-clear-runshared-13.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dcba0844f540eb2f8cbc66203369d628e00d40e",
+      "size": 409,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7dcba0844f540eb2f8cbc66203369d628e00d40e"
+    },
+    {
+      "path": "cpython-unix/patch-dont-clear-runshared-14.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e086266028f6a3ad7a9fef02a818b8bc5c51b629",
+      "size": 379,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e086266028f6a3ad7a9fef02a818b8bc5c51b629"
+    },
+    {
+      "path": "cpython-unix/patch-dont-clear-runshared.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b825a22f1cff2be648e127db5f5cc5c4a86d99",
+      "size": 343,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/44b825a22f1cff2be648e127db5f5cc5c4a86d99"
+    },
+    {
+      "path": "cpython-unix/patch-getpath-use-base_executable-for-executable_dir-314.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "581a91a406c9256f80692ceb409debca3d5e24aa",
+      "size": 687,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/581a91a406c9256f80692ceb409debca3d5e24aa"
+    },
+    {
+      "path": "cpython-unix/patch-getpath-use-base_executable-for-executable_dir.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6c740afe984947bac4be96dfa7c85a871f2f10d",
+      "size": 668,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e6c740afe984947bac4be96dfa7c85a871f2f10d"
+    },
+    {
+      "path": "cpython-unix/patch-getrandom-use-nr-3.12.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f944052f721465b8b33d1eca1a552828d5a90f6",
+      "size": 815,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/0f944052f721465b8b33d1eca1a552828d5a90f6"
+    },
+    {
+      "path": "cpython-unix/patch-getrandom-use-nr-3.14.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf64922ed4406c1a73bdc398da3c532a324254c7",
+      "size": 934,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/bf64922ed4406c1a73bdc398da3c532a324254c7"
+    },
+    {
+      "path": "cpython-unix/patch-getrandom-use-nr-3.15.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "778f6d79b263ad4a4d611cb9dfec8f7e1b939072",
+      "size": 974,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/778f6d79b263ad4a4d611cb9dfec8f7e1b939072"
+    },
+    {
+      "path": "cpython-unix/patch-jit-cflags-313.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82d1eed7b5acf3bcb7e8b2a32c2504b5fca7d60",
+      "size": 2972,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/d82d1eed7b5acf3bcb7e8b2a32c2504b5fca7d60"
+    },
+    {
+      "path": "cpython-unix/patch-jit-llvm-version-3.13.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b484d949dbc0a7a7c4f77edc9a75b753c8dfca1",
+      "size": 387,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5b484d949dbc0a7a7c4f77edc9a75b753c8dfca1"
+    },
+    {
+      "path": "cpython-unix/patch-jit-llvm-version-3.14.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "159a59926785eca2db350d9665a32365f25feb04",
+      "size": 350,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/159a59926785eca2db350d9665a32365f25feb04"
+    },
+    {
+      "path": "cpython-unix/patch-macos-link-extension-modules-13.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b0d7815a3ba7e1a3a4e598d1e16af67d005f61",
+      "size": 869,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/75b0d7815a3ba7e1a3a4e598d1e16af67d005f61"
+    },
+    {
+      "path": "cpython-unix/patch-macos-link-extension-modules.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7273c5295636d34169d31028e711334454b47d0d",
+      "size": 863,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7273c5295636d34169d31028e711334454b47d0d"
+    },
+    {
+      "path": "cpython-unix/patch-perf-trampoline-bolt.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92a77020d96ced0b6394759345e2e12d5b5a93c8",
+      "size": 230,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/92a77020d96ced0b6394759345e2e12d5b5a93c8"
+    },
+    {
+      "path": "cpython-unix/patch-pgo-file-pool-3.11.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a3e6bd2ef395cc827384364bd6881b608484494",
+      "size": 1330,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/8a3e6bd2ef395cc827384364bd6881b608484494"
+    },
+    {
+      "path": "cpython-unix/patch-pgo-file-pool.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8539c51fefe0c282eb5fbcdb7bcc26be55b8f6ed",
+      "size": 1372,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/8539c51fefe0c282eb5fbcdb7bcc26be55b8f6ed"
+    },
+    {
+      "path": "cpython-unix/patch-pgo-make-targets.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a591866f6ebc2328239158c6a926d5bb92a92712",
+      "size": 915,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a591866f6ebc2328239158c6a926d5bb92a92712"
+    },
+    {
+      "path": "cpython-unix/patch-pgo-print-statistics-3.11.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f31acac6865fa1cfef493728aec6a30be1c5b673",
+      "size": 2028,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/f31acac6865fa1cfef493728aec6a30be1c5b673"
+    },
+    {
+      "path": "cpython-unix/patch-pgo-print-statistics.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "610578c8f18213e6ba36febb7e3375c2eec54821",
+      "size": 1981,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/610578c8f18213e6ba36febb7e3375c2eec54821"
+    },
+    {
+      "path": "cpython-unix/patch-posixmodule-sys-syscall-header.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76527060f5e490381336146859e9268656485448",
+      "size": 189,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/76527060f5e490381336146859e9268656485448"
+    },
+    {
+      "path": "cpython-unix/patch-posixmodule-syscall-fallback.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9174ac6175bdba9393649c685b7287286fea5009",
+      "size": 3557,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/9174ac6175bdba9393649c685b7287286fea5009"
+    },
+    {
+      "path": "cpython-unix/patch-posixsubprocess-musl-getdents64.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8dfa60b430d3e8eb5a108da25c45b885db76c0",
+      "size": 441,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2a8dfa60b430d3e8eb5a108da25c45b885db76c0"
+    },
+    {
+      "path": "cpython-unix/patch-pwd-remove-conditional.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df6dc4985cfa0e5537f3fcaa6805e53ed9ac0cd9",
+      "size": 346,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/df6dc4985cfa0e5537f3fcaa6805e53ed9ac0cd9"
+    },
+    {
+      "path": "cpython-unix/patch-python-3.14-asyncio-static.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0593faaefa7a6db79af3c7a965ad82f10f27d158",
+      "size": 3366,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/0593faaefa7a6db79af3c7a965ad82f10f27d158"
+    },
+    {
+      "path": "cpython-unix/patch-python-configure-add-enable-static-libpython-for-interpreter-3.11.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a9a765153524b163d6fe9357af6e8ce0b61c7e9",
+      "size": 3047,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4a9a765153524b163d6fe9357af6e8ce0b61c7e9"
+    },
+    {
+      "path": "cpython-unix/patch-python-configure-add-enable-static-libpython-for-interpreter.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d23b52e0836633c1184531a1d00dc72cc90521",
+      "size": 3592,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/b8d23b52e0836633c1184531a1d00dc72cc90521"
+    },
+    {
+      "path": "cpython-unix/patch-python-getpath-backport-3.11.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f79b36197b9e73ddbfb9cc36210800c607b8e95",
+      "size": 3778,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/9f79b36197b9e73ddbfb9cc36210800c607b8e95"
+    },
+    {
+      "path": "cpython-unix/patch-python-getpath-backport-3.12.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79085f6f15c373b37be22d0176ef187108284d59",
+      "size": 3803,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/79085f6f15c373b37be22d0176ef187108284d59"
+    },
+    {
+      "path": "cpython-unix/patch-python-getpath-backport-3.13.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "048529ce18c2c8a28280c3864dd6f23e3e71dc60",
+      "size": 3516,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/048529ce18c2c8a28280c3864dd6f23e3e71dc60"
+    },
+    {
+      "path": "cpython-unix/patch-python-getpath-library.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c500f3869f3e2c75657f1481ed8ca5500bfb2b1",
+      "size": 6048,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5c500f3869f3e2c75657f1481ed8ca5500bfb2b1"
+    },
+    {
+      "path": "cpython-unix/patch-python-relative-build-details-3.16.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94afa699b827e681708eacc0e1e24fcb1177b652",
+      "size": 1681,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/94afa699b827e681708eacc0e1e24fcb1177b652"
+    },
+    {
+      "path": "cpython-unix/patch-python-relative-build-details.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f4c44ed1bc53e23202429d07420c30a82b04e29",
+      "size": 938,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4f4c44ed1bc53e23202429d07420c30a82b04e29"
+    },
+    {
+      "path": "cpython-unix/patch-sem-clockwait-weak-3.11.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6951fb4d3dd41c6d4fa56d47bc1d206609e6736e",
+      "size": 3749,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/6951fb4d3dd41c6d4fa56d47bc1d206609e6736e"
+    },
+    {
+      "path": "cpython-unix/patch-sem-clockwait-weak-3.12.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6cb6566a3e823563592cddee0b7cb794fbb9c58",
+      "size": 3773,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/b6cb6566a3e823563592cddee0b7cb794fbb9c58"
+    },
+    {
+      "path": "cpython-unix/patch-sem-clockwait-weak-3.13.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d313dfbe8ba608ceb589f295249ef52d2eea651",
+      "size": 3990,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7d313dfbe8ba608ceb589f295249ef52d2eea651"
+    },
+    {
+      "path": "cpython-unix/patch-sem-clockwait-weak-parking-lot.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "113f7abafa50e00d08a06ae0b919aa1e259323bd",
+      "size": 1847,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/113f7abafa50e00d08a06ae0b919aa1e259323bd"
+    },
+    {
+      "path": "cpython-unix/patch-test-embed-prevent-segfault.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05e2b00b7c8e2605d9dbf891cc5e3cec6fb332c",
+      "size": 535,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/d05e2b00b7c8e2605d9dbf891cc5e3cec6fb332c"
+    },
+    {
+      "path": "cpython-unix/patch-testinternalcapi-interpreter-extern.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ddfc75c42da332917e4b295a73abb1195490a65",
+      "size": 460,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4ddfc75c42da332917e4b295a73abb1195490a65"
+    },
+    {
+      "path": "cpython-unix/patch-tkinter-3.11.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "540900a6c94b449d800b941dd8e2d20dbb03d4c2",
+      "size": 4647,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/540900a6c94b449d800b941dd8e2d20dbb03d4c2"
+    },
+    {
+      "path": "cpython-unix/patch-tkinter-3.12.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b943df67caafe4a5773df569b0a86c59a9f638d",
+      "size": 4721,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4b943df67caafe4a5773df569b0a86c59a9f638d"
+    },
+    {
+      "path": "cpython-unix/patch-tkinter-3.13.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ce47676e88551c40ca32d6bf333643d09ebf7e",
+      "size": 4746,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/70ce47676e88551c40ca32d6bf333643d09ebf7e"
+    },
+    {
+      "path": "cpython-unix/patch-tkinter-3.14.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292bf40fcf0c9ea6fd38cd5cbb2249176443c8c5",
+      "size": 4406,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/292bf40fcf0c9ea6fd38cd5cbb2249176443c8c5"
+    },
+    {
+      "path": "cpython-unix/patch-tkinter-backport-tcl-9-311.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819948d96797714be2ec5da15edabc0fb9575c72",
+      "size": 7738,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/819948d96797714be2ec5da15edabc0fb9575c72"
+    },
+    {
+      "path": "cpython-unix/patch-tkinter-tcl9-thread-detection.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c198e5875e337ecb49f4864fab58f15ae0ecc780",
+      "size": 518,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c198e5875e337ecb49f4864fab58f15ae0ecc780"
+    },
+    {
+      "path": "cpython-unix/patch-write-python-for-build-3.12.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b25927f6684a59426bf195eb6f3d83cdf7ca1b53",
+      "size": 551,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/b25927f6684a59426bf195eb6f3d83cdf7ca1b53"
+    },
+    {
+      "path": "cpython-unix/patch-write-python-for-build.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17cbc689529249bbc0fd583dd6c0d66f0484f052",
+      "size": 624,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/17cbc689529249bbc0fd583dd6c0d66f0484f052"
+    },
+    {
+      "path": "cpython-unix/run_tests-13.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a78210cc83051281fd141faad7fd7b8fceef3967",
+      "size": 441,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a78210cc83051281fd141faad7fd7b8fceef3967"
+    },
+    {
+      "path": "cpython-unix/setup-llvm-aliases.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0e7f16d78eec3d8ff129bbc5b4b97c59119e4e7c",
+      "size": 618,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/0e7f16d78eec3d8ff129bbc5b4b97c59119e4e7c"
+    },
+    {
+      "path": "cpython-unix/targets.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e814dc77d478dc2dccc717afb9388d8c8ba89b",
+      "size": 26554,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e8e814dc77d478dc2dccc717afb9388d8c8ba89b"
+    },
+    {
+      "path": "cpython-windows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "242026cdaabede6ae9efa311fa1414d68d98b18e",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/242026cdaabede6ae9efa311fa1414d68d98b18e"
+    },
+    {
+      "path": "cpython-windows/build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94283e86783dc782bd134be9c2f479e3e22eae09",
+      "size": 64119,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/94283e86783dc782bd134be9c2f479e3e22eae09"
+    },
+    {
+      "path": "cpython-windows/generate_metadata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6341b64e735a6de2da8bdae181e6bacadad3201",
+      "size": 1822,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c6341b64e735a6de2da8bdae181e6bacadad3201"
+    },
+    {
+      "path": "cpython-windows/patch-disable-launchers.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1530c8c136e6c50e2ac47f519ca63e170a42b023",
+      "size": 328,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1530c8c136e6c50e2ac47f519ca63e170a42b023"
+    },
+    {
+      "path": "cpython-windows/patch-disable-uwp.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5783bae20fec38c291d8838133fde2786dc334b5",
+      "size": 490,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5783bae20fec38c291d8838133fde2786dc334b5"
+    },
+    {
+      "path": "cpython-windows/patch-layout-tcltk-arm64.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa61cd5f771d50efb32aa3edfb82395092d31cfe",
+      "size": 520,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/aa61cd5f771d50efb32aa3edfb82395092d31cfe"
+    },
+    {
+      "path": "cpython-windows/patch-liblzma-5.8-3.14.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deec8cfaa78a2b751f7dbd9e75941cf38a3b0f31",
+      "size": 1903,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/deec8cfaa78a2b751f7dbd9e75941cf38a3b0f31"
+    },
+    {
+      "path": "cpython-windows/patch-liblzma-5.8.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bd5c4bc8dc9d1c89bd614982b83b2e6cc2e31f7",
+      "size": 1918,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4bd5c4bc8dc9d1c89bd614982b83b2e6cc2e31f7"
+    },
+    {
+      "path": "cpython-windows/patch-openssl-applink.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f47de49820e44a99812170e62236d0a39c2e0c",
+      "size": 476,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e0f47de49820e44a99812170e62236d0a39c2e0c"
+    },
+    {
+      "path": "cpython-windows/patch-openssl-uplink.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8306dd95ebbb0c083b869a0c5e3f02c5db67dad",
+      "size": 534,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c8306dd95ebbb0c083b869a0c5e3f02c5db67dad"
+    },
+    {
+      "path": "cpython-windows/patch-sqlite-build-flags-3.15.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86df9669d1d5c987533396b3d2876f9f5b11d3b4",
+      "size": 900,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/86df9669d1d5c987533396b3d2876f9f5b11d3b4"
+    },
+    {
+      "path": "cpython-windows/patch-sqlite-build-flags.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d59ff817cdbb4e8df9a060e018d5d0192acbcef",
+      "size": 850,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/9d59ff817cdbb4e8df9a060e018d5d0192acbcef"
+    },
+    {
+      "path": "cpython-windows/patch-tkinter-zlib.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c9d4b78cb37c712516132c9286681f82d4dd3d",
+      "size": 418,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e5c9d4b78cb37c712516132c9286681f82d4dd3d"
+    },
+    {
+      "path": "cpython-windows/run_tests-13.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c165fbc82117449156e69ac62605aad450ee87",
+      "size": 449,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/f3c165fbc82117449156e69ac62605aad450ee87"
+    },
+    {
+      "path": "cpython-windows/xz-support",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "385dd022eebccce6f41439441d537f56d0c7fba6",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/385dd022eebccce6f41439441d537f56d0c7fba6"
+    },
+    {
+      "path": "cpython-windows/xz-support/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b0273386ed9f660a41c36f9b5c88cae1359aa3",
+      "size": 462,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/12b0273386ed9f660a41c36f9b5c88cae1359aa3"
+    },
+    {
+      "path": "cpython-windows/xz-support/config.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ddf6b7f6567d4ff1ab3bb2af211497ecc11e70",
+      "size": 1514,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/81ddf6b7f6567d4ff1ab3bb2af211497ecc11e70"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54750d65110758c6a6211a031034ce69adf1d2e5",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/54750d65110758c6a6211a031034ce69adf1d2e5"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4bb2cbb9eddb1bb1b4f366623044af8e4830919",
+      "size": 634,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/d4bb2cbb9eddb1bb1b4f366623044af8e4830919"
+    },
+    {
+      "path": "docs/building.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af139192de4bbef6575975f8b093256a7534e89",
+      "size": 6678,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1af139192de4bbef6575975f8b093256a7534e89"
+    },
+    {
+      "path": "docs/building.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5e8f5fd5676e62e09ef780671d5032325724d5",
+      "size": 6843,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/ed5e8f5fd5676e62e09ef780671d5032325724d5"
+    },
+    {
+      "path": "docs/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15f06b854349706a8ef2efe418a30e7959f6f1d",
+      "size": 289,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c15f06b854349706a8ef2efe418a30e7959f6f1d"
+    },
+    {
+      "path": "docs/distributions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5e67c83072179f7c8a60f265408a61756cfc5db",
+      "size": 19198,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e5e67c83072179f7c8a60f265408a61756cfc5db"
+    },
+    {
+      "path": "docs/distributions.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d73e7417a130160ef36983d65db09450fffebda",
+      "size": 19217,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5d73e7417a130160ef36983d65db09450fffebda"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96153f03b119acca243f38bc0598a15c55c7d26d",
+      "size": 87,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/96153f03b119acca243f38bc0598a15c55c7d26d"
+    },
+    {
+      "path": "docs/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5460f4c50d4ff88da3ce180c92712d15794418",
+      "size": 1494,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/0a5460f4c50d4ff88da3ce180c92712d15794418"
+    },
+    {
+      "path": "docs/quirks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a4cc57817aae78d1a0cf7ab9a57e08b5723cb5",
+      "size": 10702,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/60a4cc57817aae78d1a0cf7ab9a57e08b5723cb5"
+    },
+    {
+      "path": "docs/quirks.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1259f23effc1c4d5b8800f7df27db7692562d17f",
+      "size": 10963,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1259f23effc1c4d5b8800f7df27db7692562d17f"
+    },
+    {
+      "path": "docs/running.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8717c7815c07fd24a3c716b5a5e684c87ea0213",
+      "size": 13738,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e8717c7815c07fd24a3c716b5a5e684c87ea0213"
+    },
+    {
+      "path": "docs/running.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "897dd7964719eb611051ca96bb138a2a8f63a11b",
+      "size": 13716,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/897dd7964719eb611051ca96bb138a2a8f63a11b"
+    },
+    {
+      "path": "docs/status.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a34b727b47e21bfd24ea5d22f480810aaaf469f",
+      "size": 11313,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3a34b727b47e21bfd24ea5d22f480810aaaf469f"
+    },
+    {
+      "path": "docs/status.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8982cb66f78cbd017b503fe100e21e805b7af832",
+      "size": 11819,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/8982cb66f78cbd017b503fe100e21e805b7af832"
+    },
+    {
+      "path": "docs/stylesheets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ffe6d017fcfd3e071ce830ea0e6db4b309851b7",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/3ffe6d017fcfd3e071ce830ea0e6db4b309851b7"
+    },
+    {
+      "path": "docs/stylesheets/extra.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3da66a08a4dc3ae8afaff487311ea760287f883c",
+      "size": 1975,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3da66a08a4dc3ae8afaff487311ea760287f883c"
+    },
+    {
+      "path": "docs/technotes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8546c228e94c96f1299551617332b6ba05fa7c2",
+      "size": 6643,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e8546c228e94c96f1299551617332b6ba05fa7c2"
+    },
+    {
+      "path": "docs/technotes.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0cb6af514082b27f0321f945c947449815f075",
+      "size": 6947,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5f0cb6af514082b27f0321f945c947449815f075"
+    },
+    {
+      "path": "generate-version-metadata.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "560f81a29899b244edcb8b9c1b4ebad58078119b",
+      "size": 3154,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/560f81a29899b244edcb8b9c1b4ebad58078119b"
+    },
+    {
+      "path": "mkdocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b840bdc4c63930a9c1b8af24dd6bdf49744ec34",
+      "size": 2118,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7b840bdc4c63930a9c1b8af24dd6bdf49744ec34"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d42eab42721f48af34067b2fe5cdd94d0617b14",
+      "size": 3164,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/9d42eab42721f48af34067b2fe5cdd94d0617b14"
+    },
+    {
+      "path": "python-licenses.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfc2a2335573b7a9e93a3b5266737081e1deef2a",
+      "size": 105875,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/cfc2a2335573b7a9e93a3b5266737081e1deef2a"
+    },
+    {
+      "path": "pythonbuild",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8dc5e124b1e1f0b7cc5df1d8140788ee250690db",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/8dc5e124b1e1f0b7cc5df1d8140788ee250690db"
+    },
+    {
+      "path": "pythonbuild/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "pythonbuild/buildenv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33fc60327260340ce6fa55b54edc8003fda42e0b",
+      "size": 8686,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/33fc60327260340ce6fa55b54edc8003fda42e0b"
+    },
+    {
+      "path": "pythonbuild/cpython.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a763d70020543c435fb9de6e3fc9849139519044",
+      "size": 43388,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/a763d70020543c435fb9de6e3fc9849139519044"
+    },
+    {
+      "path": "pythonbuild/disttests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "433947a32ea3d68550a853685051904db09ac9c3",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/433947a32ea3d68550a853685051904db09ac9c3"
+    },
+    {
+      "path": "pythonbuild/disttests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6ad302b8434df5477422b86cf6bfe247dfa6b96",
+      "size": 25237,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/d6ad302b8434df5477422b86cf6bfe247dfa6b96"
+    },
+    {
+      "path": "pythonbuild/disttests/realtime_offset.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d8c26011dca9fe6e2f11466b5f696ac63ff0cb",
+      "size": 957,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/65d8c26011dca9fe6e2f11466b5f696ac63ff0cb"
+    },
+    {
+      "path": "pythonbuild/docker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ca543ef8e48b1cf12c851159c54e2c058f4323f",
+      "size": 6032,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/7ca543ef8e48b1cf12c851159c54e2c058f4323f"
+    },
+    {
+      "path": "pythonbuild/downloads.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b096b657d7f3fb8ae0f6bfe736976e28035c82d9",
+      "size": 18451,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/b096b657d7f3fb8ae0f6bfe736976e28035c82d9"
+    },
+    {
+      "path": "pythonbuild/downloads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d91bedec2652c9f7c4c93b4da3860bb4f6fe944",
+      "size": 1015,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/3d91bedec2652c9f7c4c93b4da3860bb4f6fe944"
+    },
+    {
+      "path": "pythonbuild/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a34a42fdbb4a01a8372c4349d571467de33f48b",
+      "size": 695,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2a34a42fdbb4a01a8372c4349d571467de33f48b"
+    },
+    {
+      "path": "pythonbuild/mirror.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5275c9158e973ed0d560701b55320874b3eedb2d",
+      "size": 8290,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/5275c9158e973ed0d560701b55320874b3eedb2d"
+    },
+    {
+      "path": "pythonbuild/testdist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "875f00bb293083b2b8ef8413c2e6c47ac6c41e23",
+      "size": 20736,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/875f00bb293083b2b8ef8413c2e6c47ac6c41e23"
+    },
+    {
+      "path": "pythonbuild/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c7415f7bbadbfdb6a1c1b556e62ddad79d504bc",
+      "size": 21747,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2c7415f7bbadbfdb6a1c1b556e62ddad79d504bc"
+    },
+    {
+      "path": "ruff.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c914f91a748419018e6f1f4bb5adc528b7277385",
+      "size": 32,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c914f91a748419018e6f1f4bb5adc528b7277385"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5203437586bbb9952bc93f5ebb2d60b6de914d43",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/5203437586bbb9952bc93f5ebb2d60b6de914d43"
+    },
+    {
+      "path": "scripts/install-cygwin.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ee777d890daf4f56395f197dd6df5d677bf62cc",
+      "size": 1610,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4ee777d890daf4f56395f197dd6df5d677bf62cc"
+    },
+    {
+      "path": "scripts/stdlib_test_matrix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a5cb1edcde2174ab7dff465a525204b089225fc",
+      "size": 7207,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/1a5cb1edcde2174ab7dff465a525204b089225fc"
+    },
+    {
+      "path": "scripts/update_downloads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a98b912239729b78e7d0ec3bc160585fc79da0",
+      "size": 27831,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/44a98b912239729b78e7d0ec3bc160585fc79da0"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f3b710b742d20ec1c53f6eba1d0d50cc2b01f24",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/8f3b710b742d20ec1c53f6eba1d0d50cc2b01f24"
+    },
+    {
+      "path": "src/github.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "495602953e010a7586ce83835a97448e0745803d",
+      "size": 19123,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/495602953e010a7586ce83835a97448e0745803d"
+    },
+    {
+      "path": "src/github_api_tester.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6fb3179864d4af800609d0992262fbaa25a94608",
+      "size": 12858,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/6fb3179864d4af800609d0992262fbaa25a94608"
+    },
+    {
+      "path": "src/json.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d31ef181cc898483914a00f8b071e2ab3028e318",
+      "size": 3762,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/d31ef181cc898483914a00f8b071e2ab3028e318"
+    },
+    {
+      "path": "src/macho.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2173ee7b6d2b2f7ce051e97da36f1a1b309ced0a",
+      "size": 15908,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2173ee7b6d2b2f7ce051e97da36f1a1b309ced0a"
+    },
+    {
+      "path": "src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f30b63b4f428f0ed466ed5394b40366a21cf61d6",
+      "size": 8644,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/f30b63b4f428f0ed466ed5394b40366a21cf61d6"
+    },
+    {
+      "path": "src/release.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e92c73b654c18bba0284e141dbc6b2bccd85da59",
+      "size": 35654,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e92c73b654c18bba0284e141dbc6b2bccd85da59"
+    },
+    {
+      "path": "src/validation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "654840bdb81bb94176fd838df5ae15010c7c6c10",
+      "size": 88940,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/654840bdb81bb94176fd838df5ae15010c7c6c10"
+    },
+    {
+      "path": "stdlib-test-annotations.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d159beb8764355c130176d1a9f99acdc54f487",
+      "size": 107937,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/e5d159beb8764355c130176d1a9f99acdc54f487"
+    },
+    {
+      "path": "test-distribution.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c4018f1021a461425b01d78dab47c331ed761657",
+      "size": 621,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/c4018f1021a461425b01d78dab47c331ed761657"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aaaf8129c54764dca660858103996869c97a07ea",
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/trees/aaaf8129c54764dca660858103996869c97a07ea"
+    },
+    {
+      "path": "tests/test_archive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91841b08dba8370d28dbdcc7b0e9468b79919609",
+      "size": 1764,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/91841b08dba8370d28dbdcc7b0e9468b79919609"
+    },
+    {
+      "path": "tests/test_mirror.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d026867f7b3720d1b89e3f6cdfb903ebce7dc0f",
+      "size": 6136,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/2d026867f7b3720d1b89e3f6cdfb903ebce7dc0f"
+    },
+    {
+      "path": "tests/test_mirror_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993d9e1017fa379f3a304cab4e6d0aca7413e91a",
+      "size": 4315,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/993d9e1017fa379f3a304cab4e6d0aca7413e91a"
+    },
+    {
+      "path": "tests/test_windows_patches.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8623b3f11af7fc9cac03c435762a0253629e3fef",
+      "size": 3161,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/8623b3f11af7fc9cac03c435762a0253629e3fef"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4840612498d705ad19117c544003a4be7c9528bf",
+      "size": 353350,
+      "url": "https://api.github.com/repos/astral-sh/python-build-standalone/git/blobs/4840612498d705ad19117c544003a4be7c9528bf"
+    }
+  ],
+  "truncated": false
+}

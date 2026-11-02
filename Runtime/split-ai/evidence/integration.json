@@ -1,0 +1,127 @@
+{
+  "packages": {
+    "python_base": {
+      "files": 954,
+      "symlinks": 2,
+      "native_signatures": 11,
+      "manifest_sha256": "4e324837965ee84bee24ca6a29479476c6f0dfb1aa9833630a1a6fee0ffbd766"
+    },
+    "mlx": {
+      "files": 10537,
+      "symlinks": 0,
+      "native_signatures": 273,
+      "manifest_sha256": "4008f8e1d85d44c86a406039be82089b77b07454be983053f57c32280fc00a35"
+    },
+    "custom_echo": {
+      "files": 3,
+      "symlinks": 0,
+      "native_signatures": 0,
+      "manifest_sha256": "44da97e68921c70669b51b8a4ad20ca08a467488e7746220c4df96a6d60ad451"
+    }
+  },
+  "network": "disabled with offline model loading; all proxy variables removed",
+  "relocated_root": "/Users/dannielyu/Project-Auto/Runtime/split-ai/relocation-check/independent path with spaces f7d0be6491b6",
+  "clean_base_probe": {
+    "version": "3.12.16 (main, Oct 26 2026, 13:59:40) [Clang 23.1.3 ]",
+    "isolated": 1,
+    "no_bytecode": true,
+    "prefix": "/Users/dannielyu/Project-Auto/Runtime/split-ai/relocation-check/independent path with spaces f7d0be6491b6/velum-python-3.12.16-split.1/python",
+    "paths": [
+      "/Users/dannielyu/Project-Auto/Runtime/split-ai/relocation-check/independent path with spaces f7d0be6491b6/velum-python-3.12.16-split.1/python/lib/python312.zip",
+      "/Users/dannielyu/Project-Auto/Runtime/split-ai/relocation-check/independent path with spaces f7d0be6491b6/velum-python-3.12.16-split.1/python/lib/python3.12",
+      "/Users/dannielyu/Project-Auto/Runtime/split-ai/relocation-check/independent path with spaces f7d0be6491b6/velum-python-3.12.16-split.1/python/lib/python3.12/lib-dynload"
+    ],
+    "missing": {
+      "pip": true,
+      "ensurepip": true,
+      "setuptools": true,
+      "wheel": true,
+      "mlx": true,
+      "numpy": true
+    }
+  },
+  "mlx_ready": {
+    "event": "ready",
+    "protocol": "velum.local-ai.v1",
+    "host": "127.0.0.1",
+    "port": 57589,
+    "pid": 91284,
+    "runtime_id": "mlx",
+    "version": "2026.11.02-split.1"
+  },
+  "unauthorized_status": 401,
+  "relocated_chat": {
+    "id": "chatcmpl-875f6987884a470e9f5a0e7b46e4b5c5",
+    "object": "chat.completion",
+    "created": 1793594267,
+    "model": "mlx-community/Qwen3-0.6B-4bit@73e3e38d981303bc594367cd910ea6eb48349da8",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Hello! How can I assist you today? What can I help with?"
+        },
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 15,
+      "completion_tokens": 16,
+      "total_tokens": 31
+    }
+  },
+  "streaming_chat": {
+    "done": true,
+    "bytes": 1755
+  },
+  "relocated_embeddings": {
+    "dimensions": 128,
+    "rows": 2,
+    "norms": [
+      0.9999999928361972,
+      0.9999999926349582
+    ]
+  },
+  "one_loaded_model_after_capability_switch": {
+    "embeddings": "mlx-community/embeddinggemma-2-4bit@8ab839e127cb8cb305edd71fb7a02c82f2d49ab3"
+  },
+  "embedding_base64": true,
+  "mlx_shutdown_exit": 0,
+  "custom_echo": {
+    "normal_and_streaming": true,
+    "sigterm_exit": 0
+  },
+  "mlx_parent_death": {
+    "parent_killed": true,
+    "port_closed": true,
+    "seconds_to_close": 0.3294943330110982,
+    "remaining_process_state": "reaped"
+  },
+  "custom_parent_death": {
+    "parent_killed": true,
+    "port_closed": true,
+    "seconds_to_close": 0.3727972090127878,
+    "remaining_process_state": "reaped"
+  },
+  "post_execution_integrity": {
+    "python_base": {
+      "files": 954,
+      "symlinks": 2,
+      "native_signatures": 11,
+      "manifest_sha256": "4e324837965ee84bee24ca6a29479476c6f0dfb1aa9833630a1a6fee0ffbd766"
+    },
+    "mlx": {
+      "files": 10537,
+      "symlinks": 0,
+      "native_signatures": 273,
+      "manifest_sha256": "4008f8e1d85d44c86a406039be82089b77b07454be983053f57c32280fc00a35"
+    },
+    "custom_echo": {
+      "files": 3,
+      "symlinks": 0,
+      "native_signatures": 0,
+      "manifest_sha256": "44da97e68921c70669b51b8a4ad20ca08a467488e7746220c4df96a6d60ad451"
+    }
+  }
+}

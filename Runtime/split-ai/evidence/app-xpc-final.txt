@@ -1,0 +1,6 @@
+SPLIT APP MLX CHAT PASS Hello! How can I assist you today?
+SPLIT APP EMBEDDING PASS 256D
+SPLIT APP CUSTOM ENGINE AUTH/START PASS
+SPLIT APP SPLASH HEALTH PASS {"status": "ok", "protocol": "velum.local-ai.v1", "runtime_id": "splash", "version": "1.5.0-velum.1", "pid": 94943, "loaded": {}, "active_request": null, "jobs": [], "device": {"status": "supported", "native_exit_code": 0}, "capabilities": ["chat", "download"], "catalog": [{"repo": "prism-ml/Ternary-Bonsai-2-27B-gguf", "variant": "PQ2_0", "revision": "94dd51cdbbec5309ed8b76a12f3268bc4fdceb93", "capability": "chat", "draft_repo": "incoai/Qwen3.8-27B-DFlash2", "draft_revision": "015e795645c74b1a0eeef3b570031fb62e769bc5", "estimated_download_bytes": 11060000000, "language_only": true}]}
+SPLIT APP SPLASH INFERENCE PASS SPLASH_OK
+SPLIT APP ACCEPTANCE PASS

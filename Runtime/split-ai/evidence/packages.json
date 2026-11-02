@@ -1,0 +1,32 @@
+{
+  "python_base": {
+    "directory": "/Users/dannielyu/Project-Auto/Runtime/split-ai/python-base",
+    "archive": "/Users/dannielyu/Project-Auto/Runtime/split-ai/velum-python-3.12.16-split.1-macos-arm64.tar.gz",
+    "archive_size": 20627203,
+    "archive_sha256": "3cdacb2a8cca1f85e069bff3f357d8dbba62c0856a74823d12aa7d92b01df8a8",
+    "manifest_sha256": "4e324837965ee84bee24ca6a29479476c6f0dfb1aa9833630a1a6fee0ffbd766",
+    "regular_files": 954,
+    "symlinks": 2,
+    "signed_mach_o_count": 11
+  },
+  "mlx": {
+    "directory": "/Users/dannielyu/Project-Auto/Runtime/split-ai/engines/mlx",
+    "archive": "/Users/dannielyu/Project-Auto/Runtime/split-ai/velum-engine-mlx-2026.11.02-split.1-macos-arm64.tar.gz",
+    "archive_size": 181642210,
+    "archive_sha256": "f7d0be6491b6ad88e48f1bac5656afe554bfc274b065bc6d7259f9a56a273672",
+    "manifest_sha256": "4008f8e1d85d44c86a406039be82089b77b07454be983053f57c32280fc00a35",
+    "regular_files": 10537,
+    "symlinks": 0,
+    "signed_mach_o_count": 273
+  },
+  "custom_echo": {
+    "directory": "/Users/dannielyu/Project-Auto/Runtime/split-ai/engines/custom-echo",
+    "archive": "/Users/dannielyu/Project-Auto/Runtime/split-ai/velum-engine-custom-echo-2026.11.02-split.1-macos-arm64.tar.gz",
+    "archive_size": 4046,
+    "archive_sha256": "3bf07fca3017823d16bb889e5ee05598105d7208eacbec071d870df6a1d61a1d",
+    "manifest_sha256": "44da97e68921c70669b51b8a4ad20ca08a467488e7746220c4df96a6d60ad451",
+    "regular_files": 3,
+    "symlinks": 0,
+    "signed_mach_o_count": 0
+  }
+}

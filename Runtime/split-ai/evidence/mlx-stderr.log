@@ -1,0 +1,13 @@
+2026-11-02 12:37:42,623 INFO "GET /health HTTP/1.1" 200 -
+2026-11-02 12:37:42,624 INFO "GET /health HTTP/1.1" 401 -
+2026-11-02 12:37:47,349 INFO Loading mlx-community/Qwen3-0.6B-4bit at pinned revision 73e3e38d981303bc594367cd910ea6eb48349da8
+2026-11-02 12:37:47,693 INFO "POST /v1/chat/completions HTTP/1.1" 200 -
+2026-11-02 12:37:47,694 INFO "POST /v1/chat/completions HTTP/1.1" 200 -
+2026-11-02 12:37:47,739 INFO Loading mlx-community/embeddinggemma-2-4bit at pinned revision 8ab839e127cb8cb305edd71fb7a02c82f2d49ab3
+[transformers] You are using a model of type `embedding_gemma2` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-11-02 12:37:49,016 INFO "POST /v1/embeddings HTTP/1.1" 200 -
+2026-11-02 12:37:49,017 INFO "GET /health HTTP/1.1" 200 -
+2026-11-02 12:37:49,023 INFO "POST /v1/embeddings HTTP/1.1" 200 -
+2026-11-02 12:37:49,073 INFO "POST /control/unload HTTP/1.1" 200 -
+2026-11-02 12:37:49,074 INFO "POST /control/shutdown HTTP/1.1" 200 -
+2026-11-02 12:37:49,176 INFO Runtime stopped

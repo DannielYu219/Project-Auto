@@ -1,0 +1,39 @@
+#!/bin/sh
+# Print local completion candidates; the optional prefix is literal text.
+set -eu
+
+completion_dir=$(CDPATH= cd -P "$(dirname "$0")" && pwd -P)
+root=$(CDPATH= cd -P "$completion_dir/../.." && pwd -P)
+if [ -f "$root/release.json" ]; then
+    models_dir="$HOME/Library/Application Support/Splash/models"
+else
+    models_dir="$root/install/models"
+fi
+
+{
+    # The models Splash suggests, the MODEL field of each row.
+    if [ -r "$root/install/suggested-models.tsv" ]; then
+        awk -F '\t' '!/^#/ { print $1 }' "$root/install/suggested-models.tsv"
+    fi
+    # The record models.installation_kind reads, an assembly's model.json; a
+    # GGUF selection's link is repo:VARIANT.
+    for record in "$models_dir"/*/*/model.json; do
+        [ -f "$record" ] || continue
+        directory=${record%/*}
+        repository=${directory##*/}
+        owner_directory=${directory%/*}
+        printf '%s/%s\n' "${owner_directory##*/}" "$repository"
+    done
+} | SPLASH_COMPLETION_PREFIX=${1-} LC_ALL=C awk '
+    BEGIN {
+        prefix = ENVIRON["SPLASH_COMPLETION_PREFIX"]
+        component = "^[A-Za-z0-9_]([A-Za-z0-9._-]*[A-Za-z0-9_])?$"
+        variant = "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    }
+    split($0, parts, "/") == 2 && split(parts[2], names, ":") <= 2 &&
+        parts[1] ~ component && names[1] ~ component &&
+        length(names[1]) <= 96 && names[1] !~ /\.git$/ &&
+        (!(2 in names) || (names[2] ~ variant && length(names[2]) <= 64)) &&
+        !index($0, "..") && !index($0, "--") &&
+        index($0, prefix) == 1 { print }
+' | LC_ALL=C sort -u

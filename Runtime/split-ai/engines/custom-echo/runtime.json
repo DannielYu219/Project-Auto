@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "platform": "macos",
+  "architecture": "arm64",
+  "minimum_macos": "26.0",
+  "id": "custom-echo",
+  "kind": "python",
+  "version": "2026.11.02-split.1",
+  "python_abi": "cp312",
+  "entrypoint": "service/server.py",
+  "capabilities": [
+    "chat",
+    "models"
+  ],
+  "adapter": {
+    "protocol": "velum.local-ai.v1",
+    "host": "127.0.0.1",
+    "port": 0,
+    "auth_env": "VELUM_RUNTIME_TOKEN",
+    "models_env": "VELUM_MODELS_DIR",
+    "parent_pid_env": "VELUM_RUNTIME_PARENT_PID"
+  },
+  "tested_python_base_manifest_sha256": "4e324837965ee84bee24ca6a29479476c6f0dfb1aa9833630a1a6fee0ffbd766",
+  "files": {
+    "LICENSE.txt": "090e137607ec74aaf61429f5f76175ed045cbc316c745ab0f61ebbe77561f5a5",
+    "provenance.json": "72b525a29145bd7953e74b89f3a4add09313de4eb85968b1268f74b4ed11c9ec",
+    "service/server.py": "4791073d4e1699b890ebe2cfdcefeb4e278850d68b9fa959c53de9f78522793f"
+  },
+  "symlinks": {},
+  "signing": {
+    "policy": "development-adhoc",
+    "notarized": false,
+    "mach_o_files": []
+  }
+}
