@@ -1,0 +1,244 @@
+2026-11-02 17:55:50,666 INFO "POST /control/import HTTP/1.1" 401 -
+2026-11-02 17:55:50,667 INFO "GET /v1/models HTTP/1.1" 200 -
+2026-11-02 17:55:50,730 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 59, in validate
+    target = managed_path(data.get('target'), root, 'target')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 24, in managed_path
+    raise ImportErrorDetail(f"{label} must be inside VELUM_MODELS_DIR", 403)
+service.local_import.ImportErrorDetail: target must be inside VELUM_MODELS_DIR
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: target must be inside VELUM_MODELS_DIR
+2026-11-02 17:55:50,730 INFO "POST /control/import HTTP/1.1" 403 -
+2026-11-02 17:55:50,731 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 59, in validate
+    target = managed_path(data.get('target'), root, 'target')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 22, in managed_path
+    raise ImportErrorDetail(f"{label} must be absolute and cannot contain ..")
+service.local_import.ImportErrorDetail: target must be absolute and cannot contain ..
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: target must be absolute and cannot contain ..
+2026-11-02 17:55:50,731 INFO "POST /control/import HTTP/1.1" 400 -
+2026-11-02 17:55:50,732 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 59, in validate
+    target = managed_path(data.get('target'), root, 'target')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 32, in managed_path
+    raise ImportErrorDetail(f"{label} symlink escapes VELUM_MODELS_DIR", 403)
+service.local_import.ImportErrorDetail: target symlink escapes VELUM_MODELS_DIR
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: target symlink escapes VELUM_MODELS_DIR
+2026-11-02 17:55:50,732 INFO "POST /control/import HTTP/1.1" 403 -
+2026-11-02 17:55:50,732 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 59, in validate
+    target = managed_path(data.get('target'), root, 'target')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 28, in managed_path
+    raise ImportErrorDetail(f"{label} does not exist", 404) from None
+service.local_import.ImportErrorDetail: target does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: target does not exist
+2026-11-02 17:55:50,733 INFO "POST /control/import HTTP/1.1" 404 -
+2026-11-02 17:55:50,733 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 60, in validate
+    draft = managed_path(data.get('draft'), root, 'draft')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 28, in managed_path
+    raise ImportErrorDetail(f"{label} does not exist", 404) from None
+service.local_import.ImportErrorDetail: draft does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: draft does not exist
+2026-11-02 17:55:50,733 INFO "POST /control/import HTTP/1.1" 404 -
+2026-11-02 17:55:50,734 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 65, in validate
+    raise ImportErrorDetail('draft file must be config.json or a safetensors shard; its directory must contain the complete DFlash2 checkpoint', 422)
+service.local_import.ImportErrorDetail: draft file must be config.json or a safetensors shard; its directory must contain the complete DFlash2 checkpoint
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: draft file must be config.json or a safetensors shard; its directory must contain the complete DFlash2 checkpoint
+2026-11-02 17:55:50,734 INFO "POST /control/import HTTP/1.1" 422 -
+2026-11-02 17:55:50,735 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 82, in validate
+    mmproj = managed_path(data['mmproj'], root, 'mmproj')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 28, in managed_path
+    raise ImportErrorDetail(f"{label} does not exist", 404) from None
+service.local_import.ImportErrorDetail: mmproj does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: mmproj does not exist
+2026-11-02 17:55:50,735 INFO "POST /control/import HTTP/1.1" 404 -
+2026-11-02 17:55:51,575 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 220, in import_local
+    raise RequestError(result.get("error", "Official local preparation failed"), result.get("status", 422))
+RequestError: cannot prepare /Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/target/Bonsai-PQ2_0.gguf: /Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/bad-mmproj.gguf: unsupported GGUF header (expected little-endian v3); omit mmproj to serve text only
+2026-11-02 17:55:51,576 INFO "POST /control/import HTTP/1.1" 422 -
+2026-11-02 17:55:51,577 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 84, in validate
+    raise ImportErrorDetail('mmproj must be a regular GGUF file', 422)
+service.local_import.ImportErrorDetail: mmproj must be a regular GGUF file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: mmproj must be a regular GGUF file
+2026-11-02 17:55:51,577 INFO "POST /control/import HTTP/1.1" 422 -
+2026-11-02 17:55:51,578 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 58, in validate
+    raise ImportErrorDetail('Splash supports chat only', 422)
+service.local_import.ImportErrorDetail: Splash supports chat only
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: Splash supports chat only
+2026-11-02 17:55:51,578 INFO "POST /control/import HTTP/1.1" 422 -
+2026-11-02 17:55:51,579 ERROR Splash request failed
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 193, in import_local
+    target, draft, mmproj, display_name = validate(data, MODELS)
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 67, in validate
+    check_tree(draft, root, 'draft')
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 49, in check_tree
+    managed_path(str(item), root, label)
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/local_import.py", line 32, in managed_path
+    raise ImportErrorDetail(f"{label} symlink escapes VELUM_MODELS_DIR", 403)
+service.local_import.ImportErrorDetail: draft symlink escapes VELUM_MODELS_DIR
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 455, in do_POST
+    self.send_json(self.runtime.import_local(data, self.disconnected))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dannielyu/Project-Auto/Runtime/splash-engine/package/service/server.py", line 195, in import_local
+    raise RequestError(str(error), error.status) from error
+RequestError: draft symlink escapes VELUM_MODELS_DIR
+2026-11-02 17:55:51,579 INFO "POST /control/import HTTP/1.1" 403 -
+2026-11-02 17:55:56,508 INFO "POST /control/import HTTP/1.1" 200 -
+2026-11-02 17:55:56,509 INFO "GET /v1/models HTTP/1.1" 200 -
+2026-11-02 17:55:57,350 INFO "POST /control/import HTTP/1.1" 200 -
+2026-11-02 17:56:00,679 INFO upstream: 17:56:00 Loading · local/Bonsai-Local-Validation-74f9fcfb50cf
+2026-11-02 17:56:01,267 INFO upstream: 17:56:01 Chat template · patched to render later system messages in place (the original template rejects them), generation prompt 5-7 tokens
+2026-11-02 17:56:02,685 INFO upstream: 17:56:02 Weights loaded in 1.36 s.
+2026-11-02 17:56:02,685 INFO upstream: 17:56:02 Decode cycles verify every row of the draft's block (--verify-rows auto, as /Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/target/Bonsai-PQ2_0.gguf is dense).
+2026-11-02 17:56:02,685 INFO upstream: 17:56:02 Kernel policy for GPU family 10 with 20 cores.
+2026-11-02 17:56:02,685 INFO upstream: 17:56:02 The GPU runs the prefill FFN alone: ANE FFN split needs unrotated quantized projections.
+2026-11-02 17:56:08,612 INFO upstream: 17:56:08 Ready · local/Bonsai-Local-Validation-74f9fcfb50cf · context 4K · text only · http://127.0.0.1:49637
+2026-11-02 17:56:08,612 INFO "POST /control/load HTTP/1.1" 200 -
+2026-11-02 17:56:08,616 INFO upstream: 17:56:08 Started · input 20 · cached 0 · effort none · thinking off
+2026-11-02 17:56:08,756 INFO upstream: 17:56:08 Done · input 20 · cached 0 · output 6 · TTFT 0.1s · 92.8 tok/s · 5.0 tok/cycle
+2026-11-02 17:56:08,756 INFO "POST /v1/chat/completions HTTP/1.1" 200 -
+2026-11-02 17:56:08,759 INFO upstream: 17:56:08 Started · input 18 · cached 0 · effort none · thinking off
+2026-11-02 17:56:08,759 INFO "POST /v1/chat/completions HTTP/1.1" 200 -
+2026-11-02 17:56:08,890 INFO upstream: 17:56:08 Done · input 18 · cached 0 · output 2 · TTFT 0.1s · 18.4 tok/s · 1.0 tok/cycle
+2026-11-02 17:56:08,891 INFO upstream: 17:56:08 Stopping · releasing engine resources
+2026-11-02 17:56:09,122 INFO "POST /control/unload HTTP/1.1" 200 -
+2026-11-02 17:56:09,123 INFO "GET /health HTTP/1.1" 200 -
+2026-11-02 17:56:09,123 INFO "POST /control/shutdown HTTP/1.1" 200 -

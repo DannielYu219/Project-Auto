@@ -1,0 +1,9 @@
+{
+  "actual_native_loaded": true,
+  "pids": [
+    93638,
+    93640,
+    93641
+  ],
+  "all_children_terminated_on_parent_exit": true
+}

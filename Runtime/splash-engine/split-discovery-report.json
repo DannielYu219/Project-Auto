@@ -1,0 +1,9 @@
+{
+  "official_any_part_discovers_all": [
+    "example-00001-of-00003.gguf",
+    "example-00002-of-00003.gguf",
+    "example-00003-of-00003.gguf"
+  ],
+  "missing_part_rejected": "the split GGUF example in /Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/split-discovery-75kg5byo is incomplete: example-00001-of-00003.gguf, example-00002-of-00003.gguf",
+  "actual_split_weight_inference": "Not run; existing Bonsai target is one GGUF; no split weights downloaded"
+}

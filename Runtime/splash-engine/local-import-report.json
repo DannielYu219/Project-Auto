@@ -1,0 +1,215 @@
+{
+  "rejections": [
+    {
+      "patch": {
+        "target": "/etc/hosts"
+      },
+      "status": 403,
+      "error": {
+        "error": {
+          "message": "target must be inside VELUM_MODELS_DIR",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "target": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/../outside.gguf"
+      },
+      "status": 400,
+      "error": {
+        "error": {
+          "message": "target must be absolute and cannot contain ..",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "target": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/escape.gguf"
+      },
+      "status": 403,
+      "error": {
+        "error": {
+          "message": "target symlink escapes VELUM_MODELS_DIR",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "target": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/missing.gguf"
+      },
+      "status": 404,
+      "error": {
+        "error": {
+          "message": "target does not exist",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "draft": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/missing-draft"
+      },
+      "status": 404,
+      "error": {
+        "error": {
+          "message": "draft does not exist",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "draft": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/bad-mmproj.gguf"
+      },
+      "status": 422,
+      "error": {
+        "error": {
+          "message": "draft file must be config.json or a safetensors shard; its directory must contain the complete DFlash2 checkpoint",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "mmproj": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/missing-mmproj.gguf"
+      },
+      "status": 404,
+      "error": {
+        "error": {
+          "message": "mmproj does not exist",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "mmproj": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/bad-mmproj.gguf"
+      },
+      "status": 422,
+      "error": {
+        "error": {
+          "message": "cannot prepare /Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/target/Bonsai-PQ2_0.gguf: /Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/bad-mmproj.gguf: unsupported GGUF header (expected little-endian v3); omit mmproj to serve text only",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "mmproj": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/draft"
+      },
+      "status": 422,
+      "error": {
+        "error": {
+          "message": "mmproj must be a regular GGUF file",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "patch": {
+        "capability": "embeddings"
+      },
+      "status": 422,
+      "error": {
+        "error": {
+          "message": "Splash supports chat only",
+          "type": "invalid_request_error"
+        }
+      }
+    }
+  ],
+  "import_seconds": 4.929,
+  "descriptor": {
+    "id": "local/Bonsai-Local-Validation@74f9fcfb50cf",
+    "repo": "local/Bonsai-Local-Validation-74f9fcfb50cf",
+    "revision": "74f9fcfb50cf95273eac4d5ca7381ff01afc2e3f",
+    "selection": "local/Bonsai-Local-Validation-74f9fcfb50cf",
+    "path": ".resolved/74f9fcfb50cf95273eac4d5ca7381ff01afc2e3f2c555f20e3f02f278e119c4b",
+    "capability": "chat",
+    "created": 1793613356,
+    "display_name": "Bonsai Local Validation",
+    "source": "local",
+    "target": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/target/Bonsai-PQ2_0.gguf",
+    "draft": "/Users/dannielyu/Project-Auto/Runtime/splash-engine/Models/splash-local/local-import-validation/draft",
+    "mmproj": null,
+    "family": "Qwen3.8-27B",
+    "vision": false,
+    "object": "model",
+    "owned_by": "splash",
+    "status": "installed"
+  },
+  "draft_file_and_idempotency": true,
+  "load_seconds": 11.262,
+  "nonstream_reply": {
+    "id": "chatcmpl-302757f03eab3665af6e603e73020a6c",
+    "object": "chat.completion",
+    "created": 1793613368,
+    "model": "local/Bonsai-Local-Validation-74f9fcfb50cf",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "LOCAL_SPLASH_OK"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 20,
+      "completion_tokens": 6,
+      "total_tokens": 26,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "metrics": {
+      "prefill": {
+        "tokens": 20
+      },
+      "decode": {
+        "tokens": 5
+      },
+      "request_latency": {
+        "start_to_first_token_ms": 85.294,
+        "first_token_to_done_ms": 53.882,
+        "wall_ms": 139.734,
+        "ttft_ms": 85.852,
+        "queue_to_start_ms": 0.5580000000000069,
+        "stream_tokens_per_second": 92.79536765524665
+      },
+      "cache": {
+        "status": "miss",
+        "matched_tokens": 0,
+        "deduplicated_tokens": 0,
+        "lane": 0
+      },
+      "speculation": {
+        "drafted_tokens": 7,
+        "accepted_draft_tokens": 4,
+        "cycles": 1
+      }
+    },
+    "timings": {
+      "prompt_n": 20,
+      "prompt_ms": 85.294,
+      "prompt_per_second": 234.48308204563043,
+      "predicted_n": 6,
+      "predicted_ms": 53.882,
+      "predicted_per_second": 92.79536765524665,
+      "cache_n": 0,
+      "draft_n": 7,
+      "draft_n_accepted": 4
+    }
+  },
+  "sse": "data: {\"id\":\"chatcmpl-bc5ef8d7ea72d2bf9c6cc46d0b312290\",\"object\":\"chat.completion.chunk\",\"created\":1793613368,\"model\":\"local/Bonsai-Local-Validation-74f9fcfb50cf\",\"choices\":[{\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":null}]}\n\ndata: {\"id\":\"chatcmpl-bc5ef8d7ea72d2bf9c6cc46d0b312290\",\"object\":\"chat.completion.chunk\",\"created\":1793613368,\"model\":\"local/Bonsai-Local-Validation-74f9fcfb50cf\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"Hello\"},\"finish_reason\":null}]}\n\ndata: {\"id\":\"chatcmpl-bc5ef8d7ea72d2bf9c6cc46d0b312290\",\"object\":\"chat.completion.chunk\",\"created\":1793613368,\"model\":\"local/Bonsai-Local-Validation-74f9fcfb50cf\",\"choices\":[{\"index\":0,\"delta\":{},\"finish_reason\":\"stop\"}],\"timings\":{\"prompt_n\":18,\"prompt_ms\":77.098,\"prompt_per_second\":233.4690912864147,\"predicted_n\":2,\"predicted_ms\":54.257,\"predicted_per_second\":18.43080155555965,\"cache_n\":0,\"draft_n\":7,\"draft_n_accepted\":0}}\n\ndata: [DONE]\n\n",
+  "unload_shutdown": true,
+  "network": "Local helper audit hook denies socket connect/DNS; test ran with dead proxy+offline enabled, no download endpoint called",
+  "mmproj": "No compatible projector available; optional omitted for actual inference; malformed projector rejected422"
+}

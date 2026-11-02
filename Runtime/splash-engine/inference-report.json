@@ -1,0 +1,101 @@
+{
+  "preparation": {
+    "job_id": "3ca0c11d-c587-4dfa-9ee9-28b0dd83f9d5",
+    "model": "prism-ml/Ternary-Bonsai-2-27B-gguf:PQ2_0@94dd51cdbbec5309ed8b76a12f3268bc4fdceb93",
+    "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "variant": "PQ2_0",
+    "revision": "94dd51cdbbec5309ed8b76a12f3268bc4fdceb93",
+    "capability": "chat",
+    "draft_repo": "incoai/Qwen3.8-27B-DFlash2",
+    "draft_revision": "015e795645c74b1a0eeef3b570031fb62e769bc5",
+    "estimated_download_bytes": 11060000000,
+    "language_only": true,
+    "status": "completed",
+    "started_at": 1793594868,
+    "downloaded_bytes": 0,
+    "finished_at": 1793594872
+  },
+  "load_seconds": 8.962,
+  "loaded_model": {
+    "id": "prism-ml/Ternary-Bonsai-2-27B-gguf:PQ2_0@94dd51cdbbec5309ed8b76a12f3268bc4fdceb93",
+    "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "revision": "94dd51cdbbec5309ed8b76a12f3268bc4fdceb93",
+    "capability": "chat",
+    "selection": "prism-ml/Ternary-Bonsai-2-27B-gguf:PQ2_0",
+    "path": ".selections/ec7c4f8fd0594622de4399f4176f60394289fb929aad9268b53c02e01e5cdb39",
+    "created": 1793594872,
+    "draft_repo": "incoai/Qwen3.8-27B-DFlash2",
+    "draft_revision": "015e795645c74b1a0eeef3b570031fb62e769bc5",
+    "object": "model",
+    "owned_by": "splash",
+    "status": "loaded"
+  },
+  "nonstream_reply": {
+    "id": "chatcmpl-6c15e548055cf7bc82e78803aef49725",
+    "object": "chat.completion",
+    "created": 1793594881,
+    "model": "prism-ml/Ternary-Bonsai-2-27B-gguf:PQ2_0",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "SPLASH_OK"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 22,
+      "completion_tokens": 5,
+      "total_tokens": 27,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "metrics": {
+      "prefill": {
+        "tokens": 22
+      },
+      "decode": {
+        "tokens": 4
+      },
+      "request_latency": {
+        "start_to_first_token_ms": 86.267,
+        "first_token_to_done_ms": 53.978,
+        "wall_ms": 140.82,
+        "ttft_ms": 86.84199999999998,
+        "queue_to_start_ms": 0.5749999999999886,
+        "stream_tokens_per_second": 74.1042647004335
+      },
+      "cache": {
+        "status": "miss",
+        "matched_tokens": 0,
+        "deduplicated_tokens": 0,
+        "lane": 0
+      },
+      "speculation": {
+        "drafted_tokens": 7,
+        "accepted_draft_tokens": 3,
+        "cycles": 1
+      }
+    },
+    "timings": {
+      "prompt_n": 22,
+      "prompt_ms": 86.267,
+      "prompt_per_second": 255.02219852318964,
+      "predicted_n": 5,
+      "predicted_ms": 53.978,
+      "predicted_per_second": 74.1042647004335,
+      "cache_n": 0,
+      "draft_n": 7,
+      "draft_n_accepted": 3
+    }
+  },
+  "nonstream_seconds": 0.144,
+  "stream_sse": "data: {\"id\":\"chatcmpl-8c3c25897902b5b225e3630a5b75e3fb\",\"object\":\"chat.completion.chunk\",\"created\":1793594882,\"model\":\"prism-ml/Ternary-Bonsai-2-27B-gguf:PQ2_0\",\"choices\":[{\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":null}]}\n\ndata: {\"id\":\"chatcmpl-8c3c25897902b5b225e3630a5b75e3fb\",\"object\":\"chat.completion.chunk\",\"created\":1793594882,\"model\":\"prism-ml/Ternary-Bonsai-2-27B-gguf:PQ2_0\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"Hello\"},\"finish_reason\":null}]}\n\ndata: {\"id\":\"chatcmpl-8c3c25897902b5b225e3630a5b75e3fb\",\"object\":\"chat.completion.chunk\",\"created\":1793594882,\"model\":\"prism-ml/Ternary-Bonsai-2-27B-gguf:PQ2_0\",\"choices\":[{\"index\":0,\"delta\":{},\"finish_reason\":\"stop\"}],\"timings\":{\"prompt_n\":18,\"prompt_ms\":77.089,\"prompt_per_second\":233.4963483765518,\"predicted_n\":2,\"predicted_ms\":53.91,\"predicted_per_second\":18.54943424225561,\"cache_n\":0,\"draft_n\":7,\"draft_n_accepted\":0}}\n\ndata: [DONE]\n\n",
+  "unload_shutdown": true
+}
